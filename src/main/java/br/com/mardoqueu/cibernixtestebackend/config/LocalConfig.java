@@ -23,6 +23,6 @@ public class LocalConfig {
         Users u2 = new Users(null, "Luiz", "luiz@mail.com", "123");
         Users u3 = new Users(null, "Valdir", "valdir@mail.com", "123");
 
-        repository.saveAll(List.of(u1, u2));
+        repository.saveAll(List.of(u1, u2, u3));
     }
 }
