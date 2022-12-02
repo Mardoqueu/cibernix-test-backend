@@ -4,6 +4,7 @@ import br.com.mardoqueu.cibernixtestebackend.domain.Users;
 import br.com.mardoqueu.cibernixtestebackend.domain.dto.UserDTO;
 import br.com.mardoqueu.cibernixtestebackend.repositories.UserRepository;
 import br.com.mardoqueu.cibernixtestebackend.services.UserService;
+import br.com.mardoqueu.cibernixtestebackend.services.exceptions.DataIntegratyViolationException;
 import br.com.mardoqueu.cibernixtestebackend.services.exceptions.ObjectNotFoundException;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,14 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Users create(UserDTO obj) {
+        findByEmail(obj);
         return repository.save(mapper.map(obj, Users.class));
+    }
+
+    private void findByEmail(UserDTO obj){
+        Optional<Users> user = repository.findByEmail(obj.getEmail());
+        if(user.isPresent()){
+            throw new DataIntegratyViolationException("E-mail já cadastrado no sistema");
+        }
     }
 }
