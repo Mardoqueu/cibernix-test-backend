@@ -5,9 +5,22 @@
   </a>
 </p>
 
-> criação de APIs REST com Spring Boot e testes de cobertura com JUnit5 e Mockito
+> Cibernix Tecnologia
+> Teste Backend Developer
 
-### ✨ [Demo](https://cibernix-test-backend.herokuapp.com/)
+> Database: MySQL ou Postgres
+
+> Task: Criar um microsserviço utilizando Springboot, SpringData, Flyway, Junit e Mockito.
+
+> - Neste microsserviço, implementar um CRUD de uma tabela de usuários.
+
+> - O mesmo deve estar coberto por Testes Unitários.
+
+> Entrega: arquivo zip ou github.
+
+> Prazo limite: 3 dias.
+
+### ✨ [Demo](https://cibernix-test-backend.herokuapp.com/user)
 
 ## Author
 
