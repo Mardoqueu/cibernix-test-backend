@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class CibernixTesteBackendApplicationTests {
 
     @Test
-    void contextLoads() {
+    void main() {
+        CibernixTesteBackendApplication.main(new String[] {});
     }
 
 }
