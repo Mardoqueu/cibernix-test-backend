@@ -26,7 +26,7 @@
 
 ![Screenshot_10](https://user-images.githubusercontent.com/11077068/210845439-dcae8c61-b3b4-4b25-8deb-374118bc4675.png)
 
-## <a href="https://cibernix-test-backend.herokuapp.com/user" target="_blank">Endpoints os usuários</a></i> 
+## <a href="https://cibernix-test-backend.herokuapp.com/user" target="_blank">Endpoints para usuários</a></i> 
 
 
 | Method   | URL                                      | Description                              |
