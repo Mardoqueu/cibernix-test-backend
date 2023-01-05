@@ -21,10 +21,21 @@
 > Prazo limite: 3 dias.
 
 ### ✨ [Demo](https://cibernix-test-backend.herokuapp.com/user)
-![Screenshot_10](https://user-images.githubusercontent.com/11077068/210845439-dcae8c61-b3b4-4b25-8deb-374118bc4675.png)
 
 ### Screenshots
 
+![Screenshot_10](https://user-images.githubusercontent.com/11077068/210845439-dcae8c61-b3b4-4b25-8deb-374118bc4675.png)
+
+## <a href="https://cibernix-test-backend.herokuapp.com/user" target="_blank">Endpoints os usuários</a></i> 
+
+
+| Method   | URL                                      | Description                              |
+| -------- | ---------------------------------------- | ---------------------------------------- |
+| `GET`    | `/user`                                  | Retrieve all uers.                       |
+| `POST`   | `/user`                                  | Create a new user.                       |
+| `GET`    | `/user/{id}`                             | Retrieve tecnico by id                   |
+| `PUT `   | `/user/{id}`                             | Edit tecnico by id                       |
+| `DELETE` | `/user/{id}`                             | Delete tecnico by id                     |
 
 
 ## Author
